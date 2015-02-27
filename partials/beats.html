@@ -1,10 +1,20 @@
 <div ng-show="beats.length">
-  <h1>Here are all of your beats:</h1>
-  <ul>
-    <li ng-repeat="item in beats">
-      <a ui-sref="beats.reporters({ beatId: item.id })">{{ item.name }}</a>
-    </li>
-  </ul>
+  <h4>Search Beats</h4>
+    <form class="form-inline" role="form">
+      <div class="form-group">
+        <input ng-model="query" type="text" class="form-control" placeholder="search">
+      </div>
+    </form>
+
+    <h2 ng-show="beats.length && filtered.length">Here are your beats:</h2>
+    <h2 ng-show="beats.length && !filtered.length">No beats</h2>
+
+    <ul>
+      <li ng-repeat="item in filtered = (beats | filter:query)">
+        <a ui-sref="beats.reporters({ beatId: item.id })">{{ item.name }}</a>
+      </li>
+    </ul>
+  </div>
 </div>
 
 <div>
