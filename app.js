@@ -18,5 +18,4 @@ newspaper.config(function($stateProvider) {
     controller: "ReportersCtrl"
   });
 
-
 });
