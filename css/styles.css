@@ -1,0 +1,38 @@
+body {
+  color: white;
+  background-color: black;
+}
+
+.btn {
+  background-color: grey;
+}
+
+h1 {
+  font-size: 400%;
+  color: red;
+}
+
+h2 {
+  font-size: 300%;
+}
+
+li {
+  font-size: 200%;
+  color: green;
+}
+
+a:link {
+  color: red;
+}
+
+a:visited {
+  color: yellow;
+}
+
+a:hover {
+  color: orange;
+}
+
+a:active {
+  color: red;
+}
