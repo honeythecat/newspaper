@@ -1,6 +1,7 @@
 body {
   color: white;
   background-color: black;
+  text-transform: uppercase;
 }
 
 .btn {
