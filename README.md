@@ -1,6 +1,6 @@
 README
 
-##CAPSLOCKNEWSPAPER!!
+##CAPS LOCK NEWSPAPER!!
 by Heather Anderson
 
 A simple Angular.js app that lets you pretend to have a newspaper. You can create beats, make up reporters (with names, employment dates, and birthdays), and after you're done making things... YOU CAN SEARCH THEM!! So go ahead and pretend you're William Randolph Hearst, then you can pretend to be the NSA and spy on your own employees!
